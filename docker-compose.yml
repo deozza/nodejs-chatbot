@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     container_name: nodejs_chatbot_cours
     volumes:
-     - ./app/:/app
+     - ./:/app
     restart: on-failure
     stdin_open: true
     tty: true
