@@ -1,0 +1,14 @@
+{
+  "name": "nodejs_chatbot",
+  "version": "1.0.0",
+  "description": "cours sur le nodejs avec comme exemple le chatbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edenn Touitou",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

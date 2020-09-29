@@ -1,0 +1,14 @@
+version: '3'
+services:
+  nodejs_chatbot_cours:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nodejs_chatbot_cours
+    volumes:
+     - ./app/:/app
+    restart: on-failure
+    stdin_open: true
+    tty: true
+    ports:
+     - '3000:3000'
